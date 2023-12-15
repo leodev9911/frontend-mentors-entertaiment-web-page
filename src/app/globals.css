@@ -2,26 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --page-red: #FC4747;
+    --page-black: #10141E;
+    --page-blue-gray: #5A698F;
+    --page-dark-blue: #161D2F;
+    color: #ffffff;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-svg:hover {
+  filter: invert(40%) sepia(53%) saturate(2690%) hue-rotate(334deg) brightness(99%) contrast(100%);
+}
+.active {
+  filter: invert(40%) sepia(53%) saturate(2690%) hue-rotate(334deg) brightness(99%) contrast(100%);
 }

@@ -1,0 +1,404 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/1X7vow16X7CnCoexXh4H4F2yDJv.jpg",
+            "genre_ids": [
+                80,
+                18,
+                36
+            ],
+            "id": 466420,
+            "original_language": "en",
+            "original_title": "Killers of the Flower Moon",
+            "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+            "popularity": 1805.975,
+            "poster_path": "/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+            "release_date": "2023-10-18",
+            "title": "Killers of the Flower Moon",
+            "video": false,
+            "vote_average": 7.655,
+            "vote_count": 1364
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ixhr0YVs0Du0fPIYQSYYOIf3j0R.jpg",
+            "genre_ids": [
+                878,
+                28
+            ],
+            "id": 854648,
+            "original_language": "en",
+            "original_title": "Robot Apocalypse",
+            "overview": "An expert hacker is targeted by a sentient AI after she realizes the threat it poses, and she must try to stay off its radar long enough to stop it.",
+            "popularity": 1576.949,
+            "poster_path": "/zpbgktIR7GkOS83PBAzLlzLSQ5W.jpg",
+            "release_date": "2021-07-26",
+            "title": "Robot Apocalypse",
+            "video": false,
+            "vote_average": 6.136,
+            "vote_count": 22
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zIYROrkHJPYB3VTiW1L9QVgaQO.jpg",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "id": 897087,
+            "original_language": "en",
+            "original_title": "Freelance",
+            "overview": "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
+            "popularity": 1405.909,
+            "poster_path": "/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
+            "release_date": "2023-10-05",
+            "title": "Freelance",
+            "video": false,
+            "vote_average": 6.344,
+            "vote_count": 257
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/r1eCvALF6fN7anVYL8Zn7PaceD1.jpg",
+            "genre_ids": [
+                35,
+                10751,
+                14
+            ],
+            "id": 787699,
+            "original_language": "en",
+            "original_title": "Wonka",
+            "overview": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+            "popularity": 1060.11,
+            "poster_path": "/xAKI0O5hUXxbmHRBNg72IzFQ06a.jpg",
+            "release_date": "2023-12-06",
+            "title": "Wonka",
+            "video": false,
+            "vote_average": 7.21,
+            "vote_count": 131
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jVFeUR259RcW57mzhqJogV3QnLa.jpg",
+            "genre_ids": [
+                28,
+                18,
+                53
+            ],
+            "id": 656156,
+            "original_language": "ko",
+            "original_title": "보호자",
+            "overview": "After 10 years of incarceration on behalf of his employer, all Su-hyuk wants is a normal life - one he hopes will include his former girlfriend, Min-seo, and their daughter, In-bi. But once you've penetrated the upper echelons of the underworld, normal can prove hard to come by. Sometime in the past decade, meanwhile, Su-hyuk's employer has adopted an air of legitimacy. These days, the old gang steal and murder in the name of urban development. And they want the reluctant Su-hyuk on board.",
+            "popularity": 1096.115,
+            "poster_path": "/ePwZs1oOh4pg8UZP8DuVZZeIn89.jpg",
+            "release_date": "2023-08-15",
+            "title": "A Man of Reason",
+            "video": false,
+            "vote_average": 6.192,
+            "vote_count": 13
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tLsc8SCFO0rMVgVyNm9XtfnyX84.jpg",
+            "genre_ids": [
+                18,
+                9648,
+                53,
+                878
+            ],
+            "id": 726209,
+            "original_language": "en",
+            "original_title": "Leave the World Behind",
+            "overview": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices — and two strangers appear at their door.",
+            "popularity": 1023.938,
+            "poster_path": "/l2bqoY9rgPAgugPkOTowIPIv61j.jpg",
+            "release_date": "2023-11-22",
+            "title": "Leave the World Behind",
+            "video": false,
+            "vote_average": 6.701,
+            "vote_count": 600
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/k1KrbaCMACQiq7EA0Yhw3bdzMv7.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                10402,
+                14,
+                35
+            ],
+            "id": 901362,
+            "original_language": "en",
+            "original_title": "Trolls Band Together",
+            "overview": "When Branch's brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+            "popularity": 951.842,
+            "poster_path": "/sEaLO9s7CIN3fjz8R3Qksum44en.jpg",
+            "release_date": "2023-10-12",
+            "title": "Trolls Band Together",
+            "video": false,
+            "vote_average": 7.147,
+            "vote_count": 347
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9PqD3wSIjntyJDBzMNuxuKHwpUD.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751
+            ],
+            "id": 1075794,
+            "original_language": "en",
+            "original_title": "Leo",
+            "overview": "Jaded 74-year-old lizard Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
+            "popularity": 844.255,
+            "poster_path": "/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
+            "release_date": "2023-11-17",
+            "title": "Leo",
+            "video": false,
+            "vote_average": 7.612,
+            "vote_count": 542
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "id": 872585,
+            "original_language": "en",
+            "original_title": "Oppenheimer",
+            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+            "popularity": 818.431,
+            "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            "release_date": "2023-07-19",
+            "title": "Oppenheimer",
+            "video": false,
+            "vote_average": 8.134,
+            "vote_count": 5378
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jhpsTzbXEu5bkCPmBqxv7vUTjIT.jpg",
+            "genre_ids": [
+                14,
+                12,
+                878,
+                28
+            ],
+            "id": 566810,
+            "original_language": "en",
+            "original_title": "Dragon Kingdom",
+            "overview": "To save their Kingdom from an army of undead, a group of warriors must travel through the forbidden lands fighting the fearsome beasts that call The Dark Kingdom their home.",
+            "popularity": 721.477,
+            "poster_path": "/o7StI2iR8yY1N67meSkNcXfojyD.jpg",
+            "release_date": "2018-11-26",
+            "title": "The Dark Kingdom",
+            "video": false,
+            "vote_average": 5.7,
+            "vote_count": 41
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mIpdOcss3oedSYB8juiSXg89uLL.jpg",
+            "genre_ids": [
+                28,
+                878,
+                12,
+                53
+            ],
+            "id": 479753,
+            "original_language": "en",
+            "original_title": "Shockwave: Countdown to Disaster",
+            "overview": "A stolen seismic weapon is activated in Yemen. A hostage freed there tries in vain to warn against its global effect. It starts seismic activity at the Californian fault line where her daughter and ex are monitoring it. Can they stop it?",
+            "popularity": 668.619,
+            "poster_path": "/sBD608VF4TcFHmP7SuC0OcvZQ0b.jpg",
+            "release_date": "2017-09-02",
+            "title": "Shockwave: Countdown to Disaster",
+            "video": false,
+            "vote_average": 5.609,
+            "vote_count": 55
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "id": 507089,
+            "original_language": "en",
+            "original_title": "Five Nights at Freddy's",
+            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
+            "popularity": 632.08,
+            "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
+            "release_date": "2023-10-25",
+            "title": "Five Nights at Freddy's",
+            "video": false,
+            "vote_average": 7.832,
+            "vote_count": 2798
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lDlVgD9IGAmki7CgIlH5eYUwrhW.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 857879,
+            "original_language": "en",
+            "original_title": "Mount Adams",
+            "overview": "UFO investigators find themselves fighting for survival as alien monsters hunt them on the slopes of Mount Adams.",
+            "popularity": 629.606,
+            "poster_path": "/nddTKKAu6z771duaxr1D32pHZ8j.jpg",
+            "release_date": "2021-07-21",
+            "title": "Mount Adams",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3xvdNyZ9WsVJpyeGhm85fukeZz4.jpg",
+            "genre_ids": [
+                878,
+                9648,
+                53
+            ],
+            "id": 1001835,
+            "original_language": "en",
+            "original_title": "Wifelike",
+            "overview": "A grieving detective in the near-future hunts down criminals who trade artificial humans on the black market. In the fight to end AI exploitation, an underground resistance attempts to infiltrate him by sabotaging the programming of the artificial human assigned as his companion to behave like his late wife. She begins to question her reality as memories of a past life begin to surface in a world where nothing is as it seems.",
+            "popularity": 599.911,
+            "poster_path": "/tea2gDZPxw0wfKC2S2VRWHagtt4.jpg",
+            "release_date": "2022-08-12",
+            "title": "Wifelike",
+            "video": false,
+            "vote_average": 7.043,
+            "vote_count": 198
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg",
+            "genre_ids": [
+                28,
+                80,
+                53
+            ],
+            "id": 385687,
+            "original_language": "en",
+            "original_title": "Fast X",
+            "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+            "popularity": 576.426,
+            "poster_path": "/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+            "release_date": "2023-05-17",
+            "title": "Fast X",
+            "video": false,
+            "vote_average": 7.199,
+            "vote_count": 4449
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8GnWDLn2AhnmkQ7hlQ9NJUYobSS.jpg",
+            "genre_ids": [
+                28,
+                10749,
+                18
+            ],
+            "id": 695721,
+            "original_language": "en",
+            "original_title": "The Hunger Games: The Ballad of Songbirds \u0026 Snakes",
+            "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+            "popularity": 545.352,
+            "poster_path": "/ePquoeNxJ6vg8U7iSjRAZ2KdztX.jpg",
+            "release_date": "2023-11-15",
+            "title": "The Hunger Games: The Ballad of Songbirds \u0026 Snakes",
+            "video": false,
+            "vote_average": 7.269,
+            "vote_count": 702
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/evxXVJtomJJbAXcDxF6wsCJzVDe.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 1019836,
+            "original_language": "en",
+            "original_title": "Christmas Bloody Christmas",
+            "overview": "It's Christmas Eve and Tori just wants to get drunk and party, but when a robotic Santa Claus at a nearby toy store goes haywire and begins a rampant killing spree through her small town, she's forced into a battle for survival.",
+            "popularity": 544.396,
+            "poster_path": "/97PaQ7r4H3y0x9RTXusfedmzf86.jpg",
+            "release_date": "2022-10-05",
+            "title": "Christmas Bloody Christmas",
+            "video": false,
+            "vote_average": 5.659,
+            "vote_count": 145
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/h3X1YZXNeklLNKRVOS6DHGRosog.jpg",
+            "genre_ids": [
+                27,
+                35,
+                14
+            ],
+            "id": 287903,
+            "original_language": "en",
+            "original_title": "Krampus",
+            "overview": "When his dysfunctional family clashes over the holidays, young Max is disillusioned and turns his back on Christmas.  Little does he know, this lack of festive spirit has unleashed the wrath of Krampus: a demonic force of ancient evil intent on punishing non-believers.",
+            "popularity": 536.224,
+            "poster_path": "/sAolMRD9rFSTU7tssfFuLEJJa7w.jpg",
+            "release_date": "2015-11-26",
+            "title": "Krampus",
+            "video": false,
+            "vote_average": 6.178,
+            "vote_count": 1966
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/LfUXJQOhBa0cfQsGnYwuSUaHId.jpg",
+            "genre_ids": [
+                37
+            ],
+            "id": 940175,
+            "original_language": "en",
+            "original_title": "A Tale of Two Guns",
+            "overview": "In the lawless West, The Cowboys, a notorious brotherhood of killers and thieves, reigned over the land with brutal fists and fast guns. Fate had finally caught up with them and now the merciless gang has but a single surviving member. When a deputized gunslinger takes up the call to hunt down the last Cowboy, the chase is on and the bullets fly, and only one of these hardened men can survive.",
+            "popularity": 529.134,
+            "poster_path": "/kT3Zy7kOQERHnpEHT1wMwXEpJsk.jpg",
+            "release_date": "2022-02-17",
+            "title": "A Tale of Two Guns",
+            "video": false,
+            "vote_average": 6.375,
+            "vote_count": 8
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4MUfDtBqUFqotGF5RJOfNfoBTLo.jpg",
+            "genre_ids": [
+                28,
+                27,
+                14
+            ],
+            "id": 951546,
+            "original_language": "en",
+            "original_title": "Reign of Chaos",
+            "overview": "When the world is gripped by a plague unleashed by the evil lord Chaos, and humans are turned into rabid creatures, mankind can only be saved by three young women, descendants of a Goddess, with the power to stop Chaos' evil.",
+            "popularity": 529.038,
+            "poster_path": "/nTMmpvR9TyV631tpFr4FtYxG0FC.jpg",
+            "release_date": "2022-04-12",
+            "title": "Reign of Chaos",
+            "video": false,
+            "vote_average": 5.685,
+            "vote_count": 28
+        }
+    ],
+    "total_pages": 41786,
+    "total_results": 835716
+}

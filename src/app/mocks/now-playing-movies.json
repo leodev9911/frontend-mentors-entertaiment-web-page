@@ -1,0 +1,415 @@
+{
+    "dates": {
+        "maximum": "2023-12-20",
+        "minimum": "2023-11-08"
+    },
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/1X7vow16X7CnCoexXh4H4F2yDJv.jpg",
+            "genre_ids": [
+                80,
+                18,
+                36
+            ],
+            "id": 466420,
+            "original_language": "en",
+            "original_title": "Killers of the Flower Moon",
+            "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+            "popularity": 1805.975,
+            "poster_path": "/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+            "release_date": "2023-10-18",
+            "title": "Killers of the Flower Moon",
+            "video": false,
+            "vote_average": 7.661,
+            "vote_count": 1355
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zIYROrkHJPYB3VTiW1L9QVgaQO.jpg",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "id": 897087,
+            "original_language": "en",
+            "original_title": "Freelance",
+            "overview": "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
+            "popularity": 1405.909,
+            "poster_path": "/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
+            "release_date": "2023-10-05",
+            "title": "Freelance",
+            "video": false,
+            "vote_average": 6.317,
+            "vote_count": 252
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/k1KrbaCMACQiq7EA0Yhw3bdzMv7.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                10402,
+                14,
+                35
+            ],
+            "id": 901362,
+            "original_language": "en",
+            "original_title": "Trolls Band Together",
+            "overview": "When Branch's brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+            "popularity": 951.842,
+            "poster_path": "/sEaLO9s7CIN3fjz8R3Qksum44en.jpg",
+            "release_date": "2023-10-12",
+            "title": "Trolls Band Together",
+            "video": false,
+            "vote_average": 7.15,
+            "vote_count": 346
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/r1eCvALF6fN7anVYL8Zn7PaceD1.jpg",
+            "genre_ids": [
+                35,
+                10751,
+                14
+            ],
+            "id": 787699,
+            "original_language": "en",
+            "original_title": "Wonka",
+            "overview": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+            "popularity": 1060.11,
+            "poster_path": "/xAKI0O5hUXxbmHRBNg72IzFQ06a.jpg",
+            "release_date": "2023-12-06",
+            "title": "Wonka",
+            "video": false,
+            "vote_average": 7.2,
+            "vote_count": 126
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tLsc8SCFO0rMVgVyNm9XtfnyX84.jpg",
+            "genre_ids": [
+                18,
+                9648,
+                53,
+                878
+            ],
+            "id": 726209,
+            "original_language": "en",
+            "original_title": "Leave the World Behind",
+            "overview": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices — and two strangers appear at their door.",
+            "popularity": 1023.938,
+            "poster_path": "/l2bqoY9rgPAgugPkOTowIPIv61j.jpg",
+            "release_date": "2023-11-22",
+            "title": "Leave the World Behind",
+            "video": false,
+            "vote_average": 6.712,
+            "vote_count": 592
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9PqD3wSIjntyJDBzMNuxuKHwpUD.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751
+            ],
+            "id": 1075794,
+            "original_language": "en",
+            "original_title": "Leo",
+            "overview": "Jaded 74-year-old lizard Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
+            "popularity": 844.255,
+            "poster_path": "/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
+            "release_date": "2023-11-17",
+            "title": "Leo",
+            "video": false,
+            "vote_average": 7.616,
+            "vote_count": 540
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "id": 507089,
+            "original_language": "en",
+            "original_title": "Five Nights at Freddy's",
+            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
+            "popularity": 632.08,
+            "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
+            "release_date": "2023-10-25",
+            "title": "Five Nights at Freddy's",
+            "video": false,
+            "vote_average": 7.831,
+            "vote_count": 2796
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8GnWDLn2AhnmkQ7hlQ9NJUYobSS.jpg",
+            "genre_ids": [
+                28,
+                10749,
+                18
+            ],
+            "id": 695721,
+            "original_language": "en",
+            "original_title": "The Hunger Games: The Ballad of Songbirds \u0026 Snakes",
+            "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+            "popularity": 545.352,
+            "poster_path": "/ePquoeNxJ6vg8U7iSjRAZ2KdztX.jpg",
+            "release_date": "2023-11-15",
+            "title": "The Hunger Games: The Ballad of Songbirds \u0026 Snakes",
+            "video": false,
+            "vote_average": 7.268,
+            "vote_count": 699
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg",
+            "genre_ids": [
+                878,
+                12,
+                28
+            ],
+            "id": 609681,
+            "original_language": "en",
+            "original_title": "The Marvels",
+            "overview": "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+            "popularity": 465.513,
+            "poster_path": "/Ag3D9qXjhJ2FUkrlJ0Cv1pgxqYQ.jpg",
+            "release_date": "2023-11-08",
+            "title": "The Marvels",
+            "video": false,
+            "vote_average": 6.545,
+            "vote_count": 677
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oqbcmZJJ1EWkOPiGjqABaUN18rI.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751
+            ],
+            "id": 1046032,
+            "original_language": "en",
+            "original_title": "The Bad Guys: A Very Bad Holiday",
+            "overview": "To keep their annual Holiday Heist-tacular afloat, Mr. Wolf and his crew of animal outlaws will have to restore the whole city's Christmas spirit — fast!",
+            "popularity": 373.373,
+            "poster_path": "/atBDD05PbVDI2lm2OUy1KFQpzen.jpg",
+            "release_date": "2023-11-30",
+            "title": "The Bad Guys: A Very Bad Holiday",
+            "video": false,
+            "vote_average": 6.918,
+            "vote_count": 49
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bWIIWhnaoWx3FTVXv6GkYDv3djL.jpg",
+            "genre_ids": [
+                878,
+                27,
+                28
+            ],
+            "id": 940721,
+            "original_language": "ja",
+            "original_title": "ゴジラ-1.0",
+            "overview": "In postwar Japan, a new terror rises. Will the devastated people be able to survive... let alone fight back?",
+            "popularity": 395.317,
+            "poster_path": "/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
+            "release_date": "2023-11-03",
+            "title": "Godzilla Minus One",
+            "video": false,
+            "vote_average": 8.237,
+            "vote_count": 116
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jXJxMcVoEuXzym3vFnjqDW4ifo6.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 572802,
+            "original_language": "en",
+            "original_title": "Aquaman and the Lost Kingdom",
+            "overview": "Black Manta, still driven by the need to avenge his father's death and wielding the power of the mythic Black Trident, will stop at nothing to take Aquaman down once and for all. To defeat him, Aquaman must turn to his imprisoned brother Orm, the former King of Atlantis, to forge an unlikely alliance in order to save the world from irreversible destruction.",
+            "popularity": 379.839,
+            "poster_path": "/8xV47NDrjdZDpkVcCFqkdHa3T0C.jpg",
+            "release_date": "2023-12-20",
+            "title": "Aquaman and the Lost Kingdom",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8RBwd37p2p48lUmZuWBLSkFLprd.jpg",
+            "genre_ids": [
+                27,
+                53,
+                35
+            ],
+            "id": 1113278,
+            "original_language": "en",
+            "original_title": "It's a Wonderful Knife",
+            "overview": "Winnie's life is less than wonderful one year after saving her town from a psychotic killer on Christmas Eve. When she wishes she was never born, she finds herself magically transported to a nightmarish parallel universe. With the murderous maniac now back, she must team up with a misfit to identify the culprit and get back to her own reality.",
+            "popularity": 315.204,
+            "poster_path": "/bnm5NntrQBcG3P7DbO00v2FmXm8.jpg",
+            "release_date": "2023-11-10",
+            "title": "It's a Wonderful Knife",
+            "video": false,
+            "vote_average": 5.25,
+            "vote_count": 28
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                28,
+                878,
+                35
+            ],
+            "id": 893723,
+            "original_language": "en",
+            "original_title": "PAW Patrol: The Mighty Movie",
+            "overview": "A magical meteor crash lands in Adventure City and gives the PAW Patrol pups superpowers, transforming them into The Mighty Pups.",
+            "popularity": 277.945,
+            "poster_path": "/aTvePCU7exLepwg5hWySjwxojQK.jpg",
+            "release_date": "2023-09-21",
+            "title": "PAW Patrol: The Mighty Movie",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 186
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/f1AQhx6ZfGhPZFTVKgxG91PhEYc.jpg",
+            "genre_ids": [
+                18,
+                36,
+                10752
+            ],
+            "id": 753342,
+            "original_language": "en",
+            "original_title": "Napoleon",
+            "overview": "An epic that details the checkered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive, volatile relationship with his wife, Josephine.",
+            "popularity": 286.804,
+            "poster_path": "/jE5o7y9K6pZtWNNMEw3IdpHuncR.jpg",
+            "release_date": "2023-11-22",
+            "title": "Napoleon",
+            "video": false,
+            "vote_average": 6.443,
+            "vote_count": 700
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 1206029,
+            "original_language": "es",
+            "original_title": "Muchachos, la película de la gente",
+            "overview": "",
+            "popularity": 274.211,
+            "poster_path": "/4lb7Lpwzu908fbph9enKN0axiYy.jpg",
+            "release_date": "2023-12-07",
+            "title": "Muchachos, la película de la gente",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+            "genre_ids": [
+                16,
+                10751,
+                14,
+                12
+            ],
+            "id": 1022796,
+            "original_language": "en",
+            "original_title": "Wish",
+            "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+            "popularity": 268.792,
+            "poster_path": "/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg",
+            "release_date": "2023-11-13",
+            "title": "Wish",
+            "video": false,
+            "vote_average": 6.627,
+            "vote_count": 110
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8MDDAi8VnWKJdMmsxuJ1YL1wc21.jpg",
+            "genre_ids": [
+                35,
+                18,
+                10402,
+                10749
+            ],
+            "id": 975533,
+            "original_language": "hi",
+            "original_title": "The Archies",
+            "overview": "Set in 1960s India, Archie and the gang navigate romance, friendship and the future of Riverdale as developers threaten to destroy a beloved park.",
+            "popularity": 222.621,
+            "poster_path": "/h2NIN5cuS3yRBnI7VDCtGiffX2r.jpg",
+            "release_date": "2023-12-07",
+            "title": "The Archies",
+            "video": false,
+            "vote_average": 7.125,
+            "vote_count": 20
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sp6egj5NHHRGmCMdIoTNdbLwACR.jpg",
+            "genre_ids": [
+                35,
+                14,
+                10751
+            ],
+            "id": 1022964,
+            "original_language": "en",
+            "original_title": "Candy Cane Lane",
+            "overview": "A man, determined to win the neighborhood's annual Christmas decorating contest, makes a pact with an elf to help him win. However, the elf casts a spell bringing the twelve days of Christmas to life, bringing chaos to the small, unsuspecting town.",
+            "popularity": 238.928,
+            "poster_path": "/2pYgOBtBaFxAELQGj6p86vuIhhG.jpg",
+            "release_date": "2023-11-29",
+            "title": "Candy Cane Lane",
+            "video": false,
+            "vote_average": 6.438,
+            "vote_count": 161
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gOJJjBB1aj6vqzuJLspERcwZuPQ.jpg",
+            "genre_ids": [
+                10751,
+                12,
+                35,
+                10770
+            ],
+            "id": 936059,
+            "original_language": "en",
+            "original_title": "The Naughty Nine",
+            "overview": "Fifth-grader Andy finds himself without a present from Santa on Christmas morning. Realizing he must have landed on the “naughty list” and feeling unfairly maligned, Andy pulls together a team of eight other naughty-listers to help him execute an elaborate heist on Santa’s Village at the North Pole to get the presents they feel they deserve.",
+            "popularity": 245.814,
+            "poster_path": "/5JoTI5Nrh2U639WfwUk0Akum7fQ.jpg",
+            "release_date": "2023-11-22",
+            "title": "The Naughty Nine",
+            "video": false,
+            "vote_average": 6.383,
+            "vote_count": 30
+        }
+    ],
+    "total_pages": 212,
+    "total_results": 4223
+}
