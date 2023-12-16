@@ -10,11 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='h-full'>
-      <body className={`${outfit.className} bg-pageBlack p-6 lg:p-8 lg:flex h-full`}>
+      <body className={`${outfit.className} bg-pageBlack p-6 lg:p-8 lg:flex h-full antialiased`}>
         <header>
           <NavBar />
         </header>
-        <main className='py-6 lg:p-8 lg:pr-0 lg:pb-0 h-full w-full'>
+        <main className='py-6 lg:p-8 lg:pr-0 lg:pb-0 h-full w-full lg:overflow-auto lg:scrollbar-none'>
           {children}
         </main>
       </body>
