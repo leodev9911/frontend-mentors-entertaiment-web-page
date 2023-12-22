@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <header>
           <NavBar />
         </header>
-        <main className='py-6 lg:p-8 lg:pr-0 lg:pb-0 h-full w-full lg:overflow-auto lg:scrollbar-none'>
+        <main className='py-6 lg:p-8 lg:pr-0 lg:pb-0 w-full lg:overflow-auto lg:scrollbar-none'>
           {children}
         </main>
       </body>

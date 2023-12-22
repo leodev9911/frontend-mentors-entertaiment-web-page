@@ -1,7 +1,7 @@
-import HomeSection from "../components/Home/HomeSection";
-import Search from "../components/Shared/Search";
+import HomeSection from "../components/Home/HomeSection"
+import Search from "../components/Shared/Search"
 
-export default function Main() {
+export default async function Main() {
   return (
     <section className='flex flex-col gap-9'>
       <Search />

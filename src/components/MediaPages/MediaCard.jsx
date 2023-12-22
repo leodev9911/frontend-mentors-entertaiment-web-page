@@ -1,7 +1,6 @@
-import { dataMap } from '../../lib/data'
 import Image from 'next/image'
 
-export default function MoviesCards({ imagePath, title, yearOfRealease }) {
+export default function MediaCards({ imagePath, title, yearOfRealease }) {
   const IMAGES_URL = 'https://image.tmdb.org/t/p/w500'
 
   return (
