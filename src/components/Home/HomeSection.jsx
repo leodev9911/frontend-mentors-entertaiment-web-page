@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import { dataMap } from '../lib/data'
+import { dataMap } from '../../lib/data'
 
 export default function HomeSection() {
   const { 
@@ -11,7 +11,6 @@ export default function HomeSection() {
   } = dataMap()
 
   const IMAGES_URL = 'https://image.tmdb.org/t/p/w500'
-  console.log(IMAGES_URL)
 
   const lists = [
     {
@@ -60,7 +59,7 @@ export default function HomeSection() {
                 <div className='absolute z-10 top-20 lg:top-[150px] left-[18px] cursor-pointer'>
                   <div className='flex items-center gap-2 text-white'>
                     <p>{movie.yearOfRealease.match(/^.{4}/)}</p>
-                    <span>.</span>
+                    <span>•</span>
                     <div className='flex items-center gap-2'>
                       <Image 
                         src='/movies.svg'

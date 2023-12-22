@@ -1,5 +1,5 @@
-import HomeSection from "./components/HomeSection";
-import Search from "./components/Search";
+import HomeSection from "../components/Home/HomeSection";
+import Search from "../components/Shared/Search";
 
 export default function Main() {
   return (

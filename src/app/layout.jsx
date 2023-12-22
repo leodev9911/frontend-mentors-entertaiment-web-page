@@ -1,4 +1,4 @@
-import NavBar from './components/Navbar'
+import NavBar from '../components/Shared/Navbar'
 import './globals.css'
 import { outfit } from './ui/fonts'
 
