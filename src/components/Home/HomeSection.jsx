@@ -69,7 +69,7 @@ export default function HomeSection() {
                       <p>Movies</p>
                     </div>
                   </div>
-                  <h2 className='text-2xl truncate w-48 lg:w-96'>{movie.title}</h2>
+                  <h2 className='text-2xl text-white truncate w-48 lg:w-96'>{movie.title}</h2>
                 </div>
               </div>
             ))}

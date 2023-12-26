@@ -1,12 +1,14 @@
 import Link from 'next/link'
 
 export default function GenreCard({
-  name
+  name,
+  media,
+  genre
 }) {
   return (
     <Link
-      href={`/movies/${name}`}
-      className='flex items-center justify-center text-white w-auto px-3 h-8 bg-pageGenres hover:bg-pageRed rounded-lg cursor-pointer duration-300'
+      href={`/${media}/${name}`}
+      className={`inline-flex items-center text-white px-3 h-8 bg-pageGenres hover:bg-pageRed rounded-lg whitespace-nowrap cursor-pointer duration-300 ${genre === name ? 'bg-pageRed' : ''}`}
     >
       {name}
     </Link>

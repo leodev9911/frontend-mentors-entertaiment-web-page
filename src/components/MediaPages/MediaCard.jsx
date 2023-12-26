@@ -29,7 +29,7 @@ export default function MediaCards({ imagePath, title, yearOfRealease }) {
             <p>Movies</p>
           </div>
         </div>
-        <h2 className='text-lg truncate w-full'>{title}</h2>
+        <h2 className='text-lg text-white truncate w-full'>{title}</h2>
       </div>
     </article>
   )
