@@ -6,7 +6,8 @@ import { useParams, usePathname } from "next/navigation"
 
 export default function NavBar() {
   const pathname = usePathname()
-  
+  const params = useParams()
+
   return (
     <nav className='bg-pageDarkBlue w-full h-[72px] p-6 rounded-xl flex items-center justify-between lg:p-8 lg:h-full lg:flex-col lg:w-24 lg:justify-start'>
       <Image 
@@ -33,27 +34,27 @@ export default function NavBar() {
           </li>
           <li>
             <Link
-              href='/movies'
+              href='/movies/all'
             >
               <Image 
                 src='/movies.svg'
                 width={20}
                 height={20}
                 alt='A movie icon'
-                className={`nav-svg ${pathname === '/movies' && 'active'}`}
+                className={`nav-svg ${params.media === 'movies' && 'active'}`}
               />
             </Link>
           </li>
           <li>
             <Link
-              href='/tv'
+              href='/tv/all'
             >
               <Image 
                 src='/tv.svg'
                 width={20}
                 height={20}
                 alt='A movie icon'
-                className={`nav-svg ${pathname === '/tv' && 'active'}`}
+                className={`nav-svg ${params.media === 'tv' && 'active'}`}
               />
             </Link>
           </li>

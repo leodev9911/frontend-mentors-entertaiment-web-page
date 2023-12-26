@@ -16,7 +16,8 @@ module.exports = {
         pageRed: 'var(--page-red)',
         pageBlack: 'var(--page-black)',
         pageBlueGray: 'var(--page-blue-gray)',
-        pageDarkBlue: 'var(--page-dark-blue)'
+        pageDarkBlue: 'var(--page-dark-blue)',
+        pageGenres: 'var(--color)'
       },
     },
   },
