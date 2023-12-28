@@ -9,6 +9,7 @@ export default function MediaSection({ media }) {
           title={media.title}
           imagePath={media.imagePath}
           yearOfRealease={media.yearOfRealease}
+          mediaType={media.mediaType}
         />
       })}
     </>

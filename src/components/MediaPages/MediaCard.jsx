@@ -1,6 +1,11 @@
 import Image from 'next/image'
 
-export default function MediaCards({ imagePath, title, yearOfRealease }) {
+export default function MediaCards({ 
+  imagePath, 
+  title, 
+  yearOfRealease,
+  mediaType 
+}) {
   const IMAGES_URL = 'https://image.tmdb.org/t/p/w500'
 
   return (
@@ -17,16 +22,16 @@ export default function MediaCards({ imagePath, title, yearOfRealease }) {
       </div>
       <div>
         <div className='flex items-center gap-2 text-white'>
-          <p>{yearOfRealease.match(/^.{4}/)}</p>
+          <p>{yearOfRealease?.match(/^.{4}/)}</p>
           <span>•</span>
           <div className='flex items-center gap-2'>
             <Image 
-              src='/movies.svg'
+              src={mediaType === 'movie' ? '/movies.svg' : '/tv.svg'}
               alt='Movie icon'
               width={12}
               height={12}
             />
-            <p>Movies</p>
+            <p>{mediaType === 'movie' ? 'Movie' : 'TV Show'}</p>
           </div>
         </div>
         <h2 className='text-lg text-white truncate w-full'>{title}</h2>

@@ -1,6 +1,20 @@
-import Image from "next/image";
+"use client"
 
-export default function Search() {
+import Image from "next/image"
+import { usePathname, useSearchParams,useRouter } from "next/navigation"
+
+export default function Search({ placeholder }) {
+  const searchParams = useSearchParams()
+  const pathname = usePathname()
+  const { replace } = useRouter()
+
+  const handleSearch = (term) => {
+    const params = new URLSearchParams(searchParams)
+    term ? params.set('query', term) : params.delete('query')
+    
+    replace(`${pathname}?${params.toString()}`)
+  }
+
   return (
     <label 
       htmlFor='search-input'
@@ -15,8 +29,10 @@ export default function Search() {
       <input
         id='search-input' 
         type='text' 
-        placeholder='Search for movies or TV shows' 
-        className='bg-transparent w-full placeholder:text-lg caret-pageRed focus:border-b focus:border-pageBlueGray focus:outline-none'
+        placeholder={placeholder} 
+        className='bg-transparent w-full text-white placeholder:text-lg caret-pageRed focus:border-b focus:border-pageBlueGray focus:outline-none'
+        onChange={(e) => handleSearch(e.target.value)}
+        defaultValue={searchParams.get('query')?.toString()}
       />
     </label>
   )

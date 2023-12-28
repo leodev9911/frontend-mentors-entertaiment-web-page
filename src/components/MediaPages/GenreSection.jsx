@@ -10,7 +10,7 @@ export default function GenreSection({ genres }) {
 
   return (
     <section
-      className='flex gap-3 mb-6 w-full h-8 overflow-x-auto scrollbar-none'
+      className='flex gap-3 mt-9 w-full h-8 overflow-x-auto scrollbar-none'
     >
       <Link
         href={`/${params.media}/all`}
