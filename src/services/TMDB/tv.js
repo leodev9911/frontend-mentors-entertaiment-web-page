@@ -73,3 +73,79 @@ export const fetchTVFromGenre = async (genreID, page) => {
   }
 }
 
+export const fetchTVAiringToday = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.tv.airingTodayTV}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(media => {
+      return {
+        id: media.id,
+        mediaType: 'tv',
+        title: media.name,
+        imagePath: media.poster_path,
+        yearOfRealease: media.first_air_date 
+      }
+    })
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+export const fetchTVOnTheAir = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.tv.onTheAirTV}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(media => {
+      return {
+        id: media.id,
+        mediaType: 'tv',
+        title: media.name,
+        imagePath: media.poster_path,
+        yearOfRealease: media.first_air_date 
+      }
+    })
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+export const fetchTVPopular = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.tv.popularTV}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(media => {
+      return {
+        id: media.id,
+        mediaType: 'tv',
+        title: media.name,
+        imagePath: media.poster_path,
+        yearOfRealease: media.first_air_date 
+      }
+    })
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+export const fetchTVTopRated = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.tv.topRatedTV}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(media => {
+      return {
+        id: media.id,
+        mediaType: 'tv',
+        title: media.name,
+        imagePath: media.poster_path,
+        yearOfRealease: media.first_air_date 
+      }
+    })
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}

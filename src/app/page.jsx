@@ -14,7 +14,7 @@ export default async function Main({ searchParams }) {
     let data = await fetchFilteredMedia(currentPage, query)
     media = data.mappedData
     totalPages = data.totalPages
-  } 
+  }
 
   return (
     <section className='flex flex-col gap-9'>

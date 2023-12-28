@@ -70,3 +70,83 @@ export const fetchMoviesFromGenre = async (genreID, page) => {
   }
 }
 
+export const fetchUpcomingMovies = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.movies.upcomingMovies}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(movie => {
+      return {
+        id: movie.id,
+        title: movie.title,
+        mediaType: 'movie',
+        imagePath: movie.poster_path,
+        yearOfRealease: movie.release_date
+      }
+    })
+    
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+export const fetchTopRatedMovies = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.movies.topRatedMovies}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(movie => {
+      return {
+        id: movie.id,
+        title: movie.title,
+        mediaType: 'movie',
+        imagePath: movie.poster_path,
+        yearOfRealease: movie.release_date
+      }
+    })
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const fetchPopularMovies = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.movies.popularMovies}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    const mappedData = data.results.map(movie => {
+      return {
+        id: movie.id,
+        title: movie.title,
+        mediaType: 'movie',
+        imagePath: movie.poster_path,
+        yearOfRealease: movie.release_date
+      }
+    })
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const fetchNowPlayingMovies = async () => {
+  try {
+    const res = await fetch(`${TMDBUrls.movies.nowPlayingMovies}?api_key=${env.TMDB_API_KEY}`)
+    console.log(TMDBUrls.movies.nowPlayingMovies)
+    const data = await res.json()
+    const mappedData = data.results.map(movie => {
+      return {
+        id: movie.id,
+        title: movie.title,
+        mediaType: 'movie',
+        imagePath: movie.poster_path,
+        yearOfRealease: movie.release_date
+      }
+    })
+
+    console.log(mappedData)
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
