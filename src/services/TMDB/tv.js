@@ -23,6 +23,34 @@ export const fetchAllTV = async (page) => {
     console.log(error)
   }
 }
+
+export const fetchTvDetails = async (movieId) => {
+  try {
+    const res = await fetch(`${TMDBUrls.tv.details}/${movieId}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    console.log(data)
+    const mappedData = {
+      title: data.name,
+      originalTitle: data.original_name, 
+      imageURL: data.poster_path,
+      releaseDate: data.release_date,
+      tagline: data.tagline,
+      status: data.status,
+      genres: data.genres,
+      homepage: data.homepage,
+      synopsis: data.overview,
+      releaseDate: data.first_air_date,
+      lastAirDate: data.last_air_date,
+      episodes: data.number_of_episodes,
+      seasons: data.number_of_seasons,
+    }
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export const fetchFilteredTV = async (page, query) => {
   try {
     const res = await fetch(`${TMDBUrls.tv.search}?api_key=${env.TMDB_API_KEY}&query=${query}&page=${page}`)

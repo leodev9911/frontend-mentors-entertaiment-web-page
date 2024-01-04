@@ -20,6 +20,31 @@ export const fetchAllMovies = async (page) => {
     console.log(error)
   }
 }
+
+export const fetchMovieDetails = async (movieId) => {
+  try {
+    const res = await fetch(`${TMDBUrls.movies.details}/${movieId}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+    console.log(data)
+    const mappedData = {
+      title: data.title,
+      originalTitle: data.original_title, 
+      imageURL: data.poster_path,
+      releaseDate: data.release_date,
+      tagline: data.tagline,
+      duration: data.runtime,
+      genres: data.genres,
+      homepage: data.homepage,
+      synopsis: data.overview,
+      imdb_id: data.imdb_id
+    }
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export const fetchFilteredMovies = async (page, query) => {
   try {
     const res = await fetch(`${TMDBUrls.movies.search}?api_key=${env.TMDB_API_KEY}&query=${query}&page=${page}`)
@@ -132,7 +157,6 @@ export const fetchPopularMovies = async () => {
 export const fetchNowPlayingMovies = async () => {
   try {
     const res = await fetch(`${TMDBUrls.movies.nowPlayingMovies}?api_key=${env.TMDB_API_KEY}`)
-    console.log(TMDBUrls.movies.nowPlayingMovies)
     const data = await res.json()
     const mappedData = data.results.map(movie => {
       return {
@@ -144,9 +168,9 @@ export const fetchNowPlayingMovies = async () => {
       }
     })
 
-    console.log(mappedData)
     return mappedData
   } catch (error) {
     console.log(error)
   }
 }
+

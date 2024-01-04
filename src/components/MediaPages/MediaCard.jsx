@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
-export default function MediaCards({ 
+export default function MediaCards({
+  id, 
   imagePath, 
   title, 
   yearOfRealease,
@@ -9,7 +11,8 @@ export default function MediaCards({
   const IMAGES_URL = 'https://image.tmdb.org/t/p/w500'
 
   return (
-    <article 
+    <Link
+      href={`/details/${mediaType === 'movie' ? 'movie' : 'tv'}/${id}`} 
       className='flex flex-col gap-2 cursor-pointer' 
     >
       <div className='relative w-full h-48 rounded-[10px] overflow-hidden'>
@@ -36,6 +39,6 @@ export default function MediaCards({
         </div>
         <h2 className='text-lg text-white truncate w-full'>{title}</h2>
       </div>
-    </article>
+    </Link>
   )
 }

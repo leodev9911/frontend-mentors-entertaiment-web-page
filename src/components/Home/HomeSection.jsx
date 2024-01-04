@@ -13,6 +13,7 @@ import {
   fetchTVTopRated
 } from '../../services/TMDB/tv'
 import { env } from '../../config/env'
+import Link from 'next/link'
 
 export default async function HomeSection() {
   const IMAGES_URL = env.TMDB_IMAGES_URL
@@ -59,9 +60,10 @@ export default async function HomeSection() {
           <h2 className='text-[32px] text-white mb-6'>{list.title}</h2>
           <div className='flex gap-8 overflow-x-scroll scrollbar-thin scrollbar-track-transparent scrollbar-thumb-pageRed w-full'>
             {list.listToRender?.map(media => (
-              <div 
+              <Link 
                 key={media.id}
-                className='w-full relative' 
+                className='w-full relative'
+                href={`/details/${media.id}`} 
               >
                 <div className='w-60 lg:w-[470px] h-40 lg:h-[250px] rounded-[10px] opacity-40 cursor-pointer'>
                   <Image 
@@ -88,7 +90,7 @@ export default async function HomeSection() {
                   </div>
                   <h2 className='text-2xl text-white truncate w-48 lg:w-96'>{media.title}</h2>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

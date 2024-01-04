@@ -5,7 +5,8 @@ export default function MediaSection({ media }) {
     <>
       {media?.map(media => {
         return <MediaCards 
-          key={media.id} 
+          key={media.id}
+          id={media.id} 
           title={media.title}
           imagePath={media.imagePath}
           yearOfRealease={media.yearOfRealease}
