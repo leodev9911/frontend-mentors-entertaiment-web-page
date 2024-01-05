@@ -11,9 +11,9 @@ export default async function Main({ searchParams }) {
   const query = searchParams.query
 
   if (query) {
-    let data = await fetchFilteredMedia(currentPage, query)
-    media = data.mappedData
-    totalPages = data.totalPages
+    const { mappedData, totalPagesFromApi } = await fetchFilteredMedia(currentPage, query)
+    media = mappedData
+    totalPages = totalPagesFromApi
   }
 
   return (

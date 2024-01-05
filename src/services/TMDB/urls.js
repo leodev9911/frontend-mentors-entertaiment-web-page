@@ -12,7 +12,7 @@ export const TMDBUrls = {
     topRatedMovies: `${env.TMDB_HOSTNAME}${env.TMDB_TOP_RATED_MOVIES}`,
     popularMovies: `${env.TMDB_HOSTNAME}${env.TMDB_POPULAR_MOVIES}`,
     nowPlayingMovies: `${env.TMDB_HOSTNAME}${env.TMDB_NOW_PLAYING_MOVIES}`,
-    details: `${env.TMDB_HOSTNAME}${env.TMDB_MOVIE_DETAILS}`
+    details: `${env.TMDB_HOSTNAME}${env.TMDB_MOVIE_DETAILS}`,
   },
   tv: {
     all: `${env.TMDB_HOSTNAME}${env.TMDB_ALL_TV}`,

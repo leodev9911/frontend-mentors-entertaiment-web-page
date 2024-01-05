@@ -34,10 +34,30 @@ export const fetchMovieDetails = async (movieId) => {
       tagline: data.tagline,
       duration: data.runtime,
       genres: data.genres,
+      language: data.spoken_languages[0]?.name,
       homepage: data.homepage,
       synopsis: data.overview,
-      imdb_id: data.imdb_id
+      imdb_id: data.imdb_id,
+      rating: data.vote_average.toFixed(1)
     }
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+export const fetchMovieCredits = async (movieId) => {
+  try {
+    const res = await fetch(`${env.TMDB_HOSTNAME}/movie/${movieId}/${env.TMDB_TV_CREDITS}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+
+    const mappedData = data.cast?.filter(person => person.known_for_department === 'Acting').map(person => {
+      return {
+        id: person.id,
+        name: person.name,
+        image: person.profile_path
+      }
+    })
 
     return mappedData
   } catch (error) {

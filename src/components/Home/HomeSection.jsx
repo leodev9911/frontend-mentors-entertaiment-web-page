@@ -63,7 +63,7 @@ export default async function HomeSection() {
               <Link 
                 key={media.id}
                 className='w-full relative'
-                href={`/details/${media.id}`} 
+                href={`/details/${media.mediaType === 'movie' ? 'movie' : 'tv'}/${media.id}`} 
               >
                 <div className='w-60 lg:w-[470px] h-40 lg:h-[250px] rounded-[10px] opacity-40 cursor-pointer'>
                   <Image 

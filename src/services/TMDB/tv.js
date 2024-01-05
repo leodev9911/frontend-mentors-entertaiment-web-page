@@ -24,9 +24,9 @@ export const fetchAllTV = async (page) => {
   }
 }
 
-export const fetchTvDetails = async (movieId) => {
+export const fetchTvDetails = async (tvId) => {
   try {
-    const res = await fetch(`${TMDBUrls.tv.details}/${movieId}?api_key=${env.TMDB_API_KEY}`)
+    const res = await fetch(`${TMDBUrls.tv.details}/${tvId}?api_key=${env.TMDB_API_KEY}`)
     const data = await res.json()
     console.log(data)
     const mappedData = {
@@ -39,11 +39,32 @@ export const fetchTvDetails = async (movieId) => {
       genres: data.genres,
       homepage: data.homepage,
       synopsis: data.overview,
+      language: data.spoken_languages[0]?.name,
       releaseDate: data.first_air_date,
       lastAirDate: data.last_air_date,
       episodes: data.number_of_episodes,
       seasons: data.number_of_seasons,
+      rating: data.vote_average.toFixed(1)
     }
+
+    return mappedData
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const fetchTVCredits = async (tvId) => {
+  try {
+    const res = await fetch(`${env.TMDB_HOSTNAME}/tv/${tvId}/${env.TMDB_TV_CREDITS}?api_key=${env.TMDB_API_KEY}`)
+    const data = await res.json()
+
+    const mappedData = data.cast?.filter(person => person.known_for_department === 'Acting').map(person => {
+      return {
+        id: person.id,
+        name: person.name,
+        image: person.profile_path
+      }
+    })
 
     return mappedData
   } catch (error) {
