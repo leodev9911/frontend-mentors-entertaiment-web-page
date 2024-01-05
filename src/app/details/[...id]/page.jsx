@@ -1,8 +1,13 @@
 import GoBackButton from "../../../components/Shared/GoBackButton"
+import Rating from "../../../components/Details/Rating"
+import MovieDetails from "../../../components/Details/MovieDetails"
+import Cast from "../../../components/Details/Cast"
+import MediaLinks from "../../../components/Details/MediaLinks"
+import Genres from "../../../components/Details/Genres"
 import Image from "next/image"
 import { fetchMovieCredits, fetchMovieDetails } from "../../../services/TMDB/movies"
-import { fetchTVCredits, fetchTvDetails } from "../../../services/TMDB/tv";
-import { env } from "../../../config/env";
+import { fetchTVCredits, fetchTvDetails } from "../../../services/TMDB/tv"
+import { env } from "../../../config/env"
 
 export default async function Details({ params }) {
   let mediaToRender
@@ -16,7 +21,7 @@ export default async function Details({ params }) {
     cast = await fetchTVCredits(params?.id[1])
   }
 
-
+  console.log(mediaToRender)
   return (
     <section>
       <div className="flex gap-5">
@@ -30,13 +35,34 @@ export default async function Details({ params }) {
           />
         </figure>
       </div>
-      <h1>{mediaToRender?.title}</h1>
-      {/* <Image
-        src={`${env.TMDB_IMAGES_URL}${cast[0]?.image}`}
-        alt={cast[0]?.name}
-        width={300}
-        height={300}
-      /> */}
+      <section>
+        <MovieDetails 
+          title={mediaToRender?.title}
+          tagline={mediaToRender?.tagline}
+          duration={mediaToRender?.duration}
+          language={mediaToRender?.language}
+          status={mediaToRender?.status}
+          episodes={mediaToRender?.episodes}
+          seasons={mediaToRender?.seasons}
+          yearOfRelease={mediaToRender?.releaseDate}
+          lastAirDate={mediaToRender?.lastAirDate}
+          synopsis={mediaToRender?.synopsis}
+          params={params}
+        />
+        <Rating
+          rating={mediaToRender.rating}
+        />
+        <Genres 
+          genres={mediaToRender?.genres}
+        />
+        <Cast 
+          cast={cast}
+        />
+        <MediaLinks 
+          imdb={mediaToRender?.imdb_id}
+          website={mediaToRender?.homepage}
+        />
+      </section>
     </section>
   )
 }
