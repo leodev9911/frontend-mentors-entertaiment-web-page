@@ -38,7 +38,8 @@ export const fetchMovieDetails = async (movieId) => {
       homepage: data.homepage,
       synopsis: data.overview,
       imdb_id: data.imdb_id,
-      rating: data.vote_average.toFixed(1)
+      rating: data.vote_average.toFixed(1),
+      status: data.status
     }
 
     return mappedData

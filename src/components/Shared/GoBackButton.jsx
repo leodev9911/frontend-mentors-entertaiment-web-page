@@ -1,23 +1,23 @@
 'use client'
 
 import Image from "next/image"
-import { useRouter, useSelectedLayoutSegment } from "next/navigation"
+import { useRouter } from "next/navigation"
+import './GoBackButton.css'
 
 export default function GoBackButton() {
   const route = useRouter();
-  const try1 = useSelectedLayoutSegment();
-  console.log(try1);
 
   return (
     <div>
-      <button onClick={route.back}>
-        <Image 
+      <button onClick={route.back} className="flex items-center justify-center gap-2 p-2 rounded-lg bg-pageDarkBlue text-pageBlueGray hover:opacity-60 duration-300">
+        <Image
+          className="details-image" 
           src="/back-arrow.svg"
           alt="Back arrow icon"
           width={20}
           height={20}
         />
-        Go Back
+        <p className="hidden lg:block">Go Back</p>
       </button>
     </div>
   )

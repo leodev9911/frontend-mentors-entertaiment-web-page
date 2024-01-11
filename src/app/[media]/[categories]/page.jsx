@@ -20,7 +20,6 @@ export default async function MediaCategories({ searchParams, params }) {
   let totalPages
   const query = searchParams.query
   const currentPage = Number(searchParams.page) || 1
-  const genreID = genres?.find(genre => genre.name === params.categories)?.id
   
   if (params.media === 'tv') {
     genres = await fetchAllTVGenres()
@@ -28,10 +27,11 @@ export default async function MediaCategories({ searchParams, params }) {
     genres = await fetchAllMoviesGenres()
   }
 
+  const genreID = genres?.find(genre => genre.name === params.categories)?.id
+
   if (params.media === 'tv') {
     if (genreID) {
       let data = await fetchTVFromGenre(genreID, currentPage)
-      console.log(data)
       media = data.mappedData
       totalPages = data.totalPages
     } else {
