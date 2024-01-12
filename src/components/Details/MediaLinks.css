@@ -1,0 +1,15 @@
+.link-icon {
+  filter: invert(100%) sepia(10%) saturate(7475%) hue-rotate(168deg) brightness(118%) contrast(115%);
+}
+.media-link-constainer {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-color: var(--page-dark-blue);
+}
+.media-link-constainer:hover {
+    opacity: 0.6;
+}

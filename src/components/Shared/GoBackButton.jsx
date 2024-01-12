@@ -17,7 +17,6 @@ export default function GoBackButton() {
           width={20}
           height={20}
         />
-        <p className="hidden lg:block">Go Back</p>
       </button>
     </div>
   )

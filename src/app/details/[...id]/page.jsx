@@ -21,21 +21,21 @@ export default async function Details({ params }) {
     cast = await fetchTVCredits(params?.id[1])
   }
 
-  console.log(mediaToRender)
   return (
-    <section>
-      <div className="flex gap-5">
+    <section className="flex flex-col gap-8 lg:flex-row w-full">
+      <div className="flex gap-5 lg:w-[40%]">
         <GoBackButton />
-        <figure>
+        <figure className="my-0 mx-auto lg:mx-0 rounded-lg">
           <Image
             src={`${env.TMDB_IMAGES_URL}${mediaToRender.imageURL}`}
             alt={mediaToRender.title}
             width={320}
             height={500}
+            className="rounded-lg"
           />
         </figure>
       </div>
-      <section>
+      <section className="lg:w-[60%]">
         <MovieDetails 
           title={mediaToRender?.title}
           tagline={mediaToRender?.tagline}
@@ -48,12 +48,11 @@ export default async function Details({ params }) {
           lastAirDate={mediaToRender?.lastAirDate}
           synopsis={mediaToRender?.synopsis}
           params={params}
-        />
-        <Rating
           rating={mediaToRender.rating}
         />
         <Genres 
           genres={mediaToRender?.genres}
+          params={params}
         />
         <Cast 
           cast={cast}

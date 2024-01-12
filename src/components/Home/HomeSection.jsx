@@ -65,15 +65,15 @@ export default async function HomeSection() {
                 className='w-full relative'
                 href={`/details/${media.mediaType === 'movie' ? 'movie' : 'tv'}/${media.id}`} 
               >
-                <div className='w-60 lg:w-[470px] h-40 lg:h-[250px] rounded-[10px] opacity-40 cursor-pointer'>
+                <figure className='w-60 lg:w-[470px] h-36 lg:h-[230px] rounded-[10px] opacity-40 cursor-pointer overflow-hidden'>
                   <Image 
                     src={`${IMAGES_URL}${media.imagePath}`} 
                     alt='media poster'
                     width={440}
                     height={230} 
-                    className='w-60 lg:w-[440px] h-36 lg:h-[230px] rounded-[10px] object-cover'
+                    className='w-60 lg:w-[440px] h-36 lg:h-[230px] rounded-[10px] object-cover duration-300 hover:scale-125'
                   />
-                </div>
+                </figure>
                 <div className='absolute z-10 top-20 lg:top-[150px] left-[18px] cursor-pointer'>
                   <div className='flex items-center gap-2 text-white'>
                     <p>{media.yearOfRealease.match(/^.{4}/)}</p>

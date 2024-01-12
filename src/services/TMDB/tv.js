@@ -6,7 +6,6 @@ export const fetchAllTV = async (page) => {
     const res = await fetch(`${TMDBUrls.tv.all}?api_key=${env.TMDB_API_KEY}&page=${page}`)
     console.log(`${TMDBUrls.tv.all}?api_key=${env.TMDB_API_KEY}&page=${page}`)
     const data = await res.json()
-    console.log(data)
     const totalPages = data.total_pages
     const mappedData = data.results.map(media => {
       return {
@@ -28,7 +27,6 @@ export const fetchTvDetails = async (tvId) => {
   try {
     const res = await fetch(`${TMDBUrls.tv.details}/${tvId}?api_key=${env.TMDB_API_KEY}`)
     const data = await res.json()
-    console.log(data)
     const mappedData = {
       title: data.name,
       originalTitle: data.original_name, 
@@ -57,12 +55,13 @@ export const fetchTVCredits = async (tvId) => {
   try {
     const res = await fetch(`${env.TMDB_HOSTNAME}/tv/${tvId}/${env.TMDB_TV_CREDITS}?api_key=${env.TMDB_API_KEY}`)
     const data = await res.json()
-
+    
     const mappedData = data.cast?.filter(person => person.known_for_department === 'Acting').map(person => {
       return {
         id: person.id,
         name: person.name,
-        image: person.profile_path
+        image: person.profile_path,
+        character: person.character
       }
     })
 

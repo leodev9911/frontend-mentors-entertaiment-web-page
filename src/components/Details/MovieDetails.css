@@ -1,0 +1,12 @@
+.movie-details-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.movie-details-containers > p:nth-child(1) {
+    color: white;
+    font-weight: 700;
+}
+.movie-details-containers > p:nth-child(2) {
+    color: rgb(134, 136, 141);
+}

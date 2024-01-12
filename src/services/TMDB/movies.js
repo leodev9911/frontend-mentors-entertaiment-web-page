@@ -25,7 +25,6 @@ export const fetchMovieDetails = async (movieId) => {
   try {
     const res = await fetch(`${TMDBUrls.movies.details}/${movieId}?api_key=${env.TMDB_API_KEY}`)
     const data = await res.json()
-    console.log(data)
     const mappedData = {
       title: data.title,
       originalTitle: data.original_title, 
@@ -51,12 +50,12 @@ export const fetchMovieCredits = async (movieId) => {
   try {
     const res = await fetch(`${env.TMDB_HOSTNAME}/movie/${movieId}/${env.TMDB_TV_CREDITS}?api_key=${env.TMDB_API_KEY}`)
     const data = await res.json()
-
     const mappedData = data.cast?.filter(person => person.known_for_department === 'Acting').map(person => {
       return {
         id: person.id,
         name: person.name,
-        image: person.profile_path
+        image: person.profile_path,
+        character: person.character
       }
     })
 

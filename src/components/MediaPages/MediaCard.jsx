@@ -13,7 +13,7 @@ export default function MediaCards({
   return (
     <Link
       href={`/details/${mediaType === 'movie' ? 'movie' : 'tv'}/${id}`} 
-      className='flex flex-col gap-2 cursor-pointer' 
+      className='flex flex-col gap-2 cursor-pointer rounded-lg p-2 hover:bg-pageDarkBlue duration-300' 
     >
       <div className='relative w-full h-48 rounded-[10px] overflow-hidden'>
         <Image 
@@ -27,7 +27,7 @@ export default function MediaCards({
         <div className='flex items-center gap-2 text-white'>
           <p>{yearOfRealease?.match(/^.{4}/)}</p>
           <span>•</span>
-          <div className='flex items-center gap-2'>
+          <figure className='flex items-center gap-2'>
             <Image 
               src={mediaType === 'movie' ? '/movies.svg' : '/tv.svg'}
               alt='Movie icon'
@@ -35,7 +35,7 @@ export default function MediaCards({
               height={12}
             />
             <p>{mediaType === 'movie' ? 'Movie' : 'TV Show'}</p>
-          </div>
+          </figure>
         </div>
         <h2 className='text-lg text-white truncate w-full'>{title}</h2>
       </div>
