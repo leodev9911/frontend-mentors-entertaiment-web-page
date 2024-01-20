@@ -21,5 +21,9 @@ export const env = {
   TMDB_TV_ON_THE_AIR: process.env.TV_ON_THE_AIR,
   TMDB_TV_POPULAR: process.env.TV_POPULAR,
   TMDB_TV_TOP_RATED: process.env.TV_TOP_RATED,
-  TMDB_TV_CREDITS: process.env.TV_CREDITS
+  TMDB_TV_CREDITS: process.env.TV_CREDITS,
+
+
+  TMDB_PERSON_TRENDING: process.env.PEOPLE_TRENDING,
+  TMDB_PERSON_POPULAR: process.env.PEOPLE_POPULAR
 }

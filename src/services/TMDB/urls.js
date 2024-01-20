@@ -23,5 +23,9 @@ export const TMDBUrls = {
     popularTV: `${env.TMDB_HOSTNAME}${env.TMDB_TV_POPULAR}`,
     topRatedTV: `${env.TMDB_HOSTNAME}${env.TMDB_TV_TOP_RATED}`,
     details: `${env.TMDB_HOSTNAME}${env.TMDB_TV_DETAILS}`
+  },
+  peopple: {
+    trending: `${env.TMDB_HOSTNAME}${env.TMDB_PERSON_TRENDING}`,
+    popular:` ${env.TMDB_HOSTNAME}${env.TMDB_PERSON_POPULAR}`
   }
 }

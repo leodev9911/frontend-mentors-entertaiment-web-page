@@ -1,0 +1,6 @@
+- Loadind and 404 page
+- Bookmarks page
+- Log in/ Log out feature to store the user Bookmarks
+- Actors page
+- In Media Details, review section and trailer
+- Media streaming?
