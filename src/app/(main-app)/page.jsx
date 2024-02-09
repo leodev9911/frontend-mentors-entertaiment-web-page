@@ -1,8 +1,8 @@
-import HomeSection from "../components/Home/HomeSection"
-import Search from "../components/Shared/Search"
-import MediaSection from '../components/MediaPages/MediaSection'
-import { fetchFilteredMedia } from '../services/TMDB/global'
-import Pagination from "../components/MediaPages/Pagination"
+import HomeSection from "../../components/Home/HomeSection"
+import Search from "../../components/Shared/Search"
+import MediaSection from '../../components/MediaPages/MediaSection'
+import { fetchFilteredMedia } from '../../services/TMDB/global'
+import Pagination from "../../components/MediaPages/Pagination"
 
 export default async function Main({ searchParams }) {
   const currentPage = Number(searchParams.page) || 1

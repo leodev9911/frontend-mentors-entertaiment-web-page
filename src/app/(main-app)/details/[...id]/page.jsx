@@ -1,13 +1,13 @@
-import GoBackButton from "../../../components/Shared/GoBackButton"
-import Rating from "../../../components/Details/Rating"
-import MovieDetails from "../../../components/Details/MovieDetails"
-import Cast from "../../../components/Details/Cast"
-import MediaLinks from "../../../components/Details/MediaLinks"
-import Genres from "../../../components/Details/Genres"
+import GoBackButton from "../../../../components/Shared/GoBackButton"
+import Rating from "../../../../components/Details/Rating"
+import MovieDetails from "../../../../components/Details/MovieDetails"
+import Cast from "../../../../components/Details/Cast"
+import MediaLinks from "../../../../components/Details/MediaLinks"
+import Genres from "../../../../components/Details/Genres"
 import Image from "next/image"
-import { fetchMovieCredits, fetchMovieDetails } from "../../../services/TMDB/movies"
-import { fetchTVCredits, fetchTvDetails } from "../../../services/TMDB/tv"
-import { env } from "../../../config/env"
+import { fetchMovieCredits, fetchMovieDetails } from "../../../../services/TMDB/movies"
+import { fetchTVCredits, fetchTvDetails } from "../../../../services/TMDB/tv"
+import { env } from "../../../../config/env"
 
 export default async function Details({ params }) {
   let mediaToRender
